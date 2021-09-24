@@ -1,15 +1,11 @@
-.global {
+.wrapper_promo {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.global__p span {
-    font-weight: bold;
-}
-
-.global__h3 {
+.promo_name__h3 {
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
@@ -20,18 +16,7 @@
     text-align: center;
 }
 
-.promo__heading {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 50px;
-    justify-content: center;
-    width: 20%;
-    text-align: center;
-}
-
-.global__p {
+.promo_name__content {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -39,4 +24,5 @@
     line-height: 30px;
     width: 30%;
     text-align: center;
+    color: #4F5665;
 }
